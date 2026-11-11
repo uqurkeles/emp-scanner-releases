@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "2.3.0",
+  "version": "2.3.1",
   "platform": "windows",
   "arch": "x64",
-  "download_url": "https://github.com/uqurkeles/emp-scanner-releases/releases/download/v2.3.0/EMPScanner-2.3.0-Windows-x64-Setup.exe",
-  "sha256": "0aef243939691d1a9f77f616541000662254bc6168976783c77d3207c281c057",
-  "size_bytes": 240892660,
-  "release_notes": "EMP Scanner Desktop 2.3.0\n\n- Gerçek herkese açık GitHub dağıtım kanalına bağlı uygulama içi güncelleme kontrolü.\n- Kaynak kodu gizli depoda, tam Windows kurucusu ayrı dağıtım deposunda tutulur.\n- Sürüm, SHA-256 ve değişiklik notları içeren HTTPS manifesti.\n- Fiziksel hesap motoru ve model sürümü değişmedi.\n"
+  "download_url": "https://github.com/uqurkeles/emp-scanner-releases/releases/download/v2.3.1/EMPScanner-2.3.1-Windows-x64-Setup.exe",
+  "sha256": "eb4a12c10fe1c3ba59eac6d79053b062f131bea1cb9afbbcbf1be70736c812a3",
+  "size_bytes": 240896796,
+  "release_notes": "EMP Scanner Desktop 2.3.1\n\n- Gerçek herkese açık GitHub dağıtım kanalına bağlı uygulama içi güncelleme kontrolü.\n- Kaynak kodu gizli depoda, tam Windows kurucusu ayrı dağıtım deposunda tutulur.\n- Sürüm, SHA-256 ve değişiklik notları içeren HTTPS manifesti.\n- Fiziksel hesap motoru ve model sürümü değişmedi.\n"
 }
