@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "2.3.2",
+  "version": "2.4.0",
   "platform": "windows",
   "arch": "x64",
-  "download_url": "https://github.com/uqurkeles/emp-scanner-releases/releases/download/v2.3.2/EMPScanner-2.3.2-Windows-x64-Setup.exe",
-  "sha256": "abfdde9a71746d6570d92b3429bdface6ab108ec96eee172102fd4e87b7a4107",
-  "size_bytes": 241097540,
-  "release_notes": "EMP Scanner Desktop 2.3.2\n\n- Kurucunun Bitir adımında uygulamayı otomatik başlatma kaldırıldı; kurulum kapanınca uygulama masaüstü kısayolundan açılır.\n- Türkçe kurucu metinleri için derleme giriş kodlaması açıkça UTF-8 olarak belirlendi.\n- Güncelleme istemcisi ve kullanıcı veri konumları korundu.\n- Fiziksel hesap motoru ve model sürümü değişmedi.\n"
+  "download_url": "https://github.com/uqurkeles/emp-scanner-releases/releases/download/v2.4.0/EMPScanner-2.4.0-Windows-x64-Setup.exe",
+  "sha256": "cb24b5fd6c4156ffc38b217618e97252c84f5f24e6bbf4d9970b4c35c275fff1",
+  "size_bytes": 241088609,
+  "release_notes": "EMP Scanner Desktop 2.4.0\n\n- “Dört oluk derinliği” alanı “Oluk derinliği (mm)” olarak değiştirildi.\n- Virgülle ayrılmış her değer bir oluk oluşturur: tek değer tek oluk, altı değer altı oluk.\n- Oluklar soldan sağa eşit aralıklarla yerleşir; tek oluk ortalanır. Sığmayan oluk genişliğinde anlaşılır hata gösterilir.\n- Eski dört oluklu projeler ve referans hesap sonuçları korunur. Proje kayıtları değişken sayıda derinlik saklar.\n- Masaüstü sürümü 2.4.0; fiziksel motor 2.2.0, model direct-finite-mirror-2.2 olarak ayrı kaydedilir.\n- Mevcut uygulama içi güncelleme, kurucu ve kullanıcı veri konumları korundu.\n"
 }
