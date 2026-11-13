@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "2.4.1",
+  "version": "2.5.0",
   "platform": "windows",
   "arch": "x64",
-  "download_url": "https://github.com/uqurkeles/emp-scanner-releases/releases/download/v2.4.1/EMPScanner-2.4.1-Windows-x64-Setup.exe",
-  "sha256": "d33b45e9203a18a76bf90e9405374eeb2ce3b20e7f24a0f7872a68f656f323db",
-  "size_bytes": 241099462,
-  "release_notes": "EMP Scanner Desktop 2.4.1\n\n- Yeni dosyalar önce ayrı hazırlanır. Tüm EMP Scanner pencereleri kapanmadan mevcut dosyalar değiştirilmez.\n- Değişim başarısız olursa önceki uygulama dosyaları geri yüklenir; eski motor/yeni arayüz karışımı önlenir.\n- Uygulama içi kurulumda ilerleme penceresi görünür; kurulum bitene kadar uygulama yeniden açılmamalıdır.\n- Değişken oluk sayısı korunur: her virgülle ayrılmış derinlik bir oluk oluşturur.\n- Proje, kalibrasyon, ayarlar ve kurulum klasöründeki uygulamaya ait olmayan dosyalar korunur.\n- Fiziksel motor 2.2.0 / direct-finite-mirror-2.2 değişmedi.\n"
+  "download_url": "https://github.com/uqurkeles/emp-scanner-releases/releases/download/v2.5.0/EMPScanner-2.5.0-Windows-x64-Setup.exe",
+  "sha256": "a045ea7a58ac1bf95245484cff031dc764718a6ab5db2973e104207ad18bda1f",
+  "size_bytes": 241110246,
+  "release_notes": "EMP Scanner Desktop 2.5.0\n\n- Proje aç/kaydet, kalibrasyon, simülasyon ve karşılaştırma işlemleri üst araç çubuğuna taşındı.\n- Solda Mekanik, Kamera ve optik, Lastik ve oluklar, Görüntü ve algılama, Kalibrasyon kategorileri eklendi.\n- Kamera/lazer/ayna yerleşimi, ayna boyutları, lastik konumu ve montaj sapmaları Mekanik altında toplandı.\n- Düzen, Ölçüm sonuçları, Kapsama, Karşılaştırma ve Model bilgisi ayrı çalışma alanları oldu; Mekanik seçilince 3B düzen görünür.\n- Parametre kaynak/not alanları açılır bölümlere alındı. Sekmeler arasında girilen değerler korunur; değişen ayarlar için yeniden hesaplama uyarısı gösterilir.\n- Proje adı ve kayıt durumu görünür. Varsayılan sayılardaki 6/6.0 farkının gereksiz kaydetme istemesine neden olması giderildi.\n- Fiziksel motor 2.2.0/model direct-finite-mirror-2.2, kullanıcı verileri ve güvenli kurulum/güncelleme akışı korundu.\n"
 }
