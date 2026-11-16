@@ -1,10 +1,20 @@
 {
   "schema_version": 1,
-  "version": "2.6.0",
+  "version": "2.7.0",
   "platform": "windows",
   "arch": "x64",
-  "download_url": "https://github.com/uqurkeles/emp-scanner-releases/releases/download/v2.6.0/EMPScanner-2.6.0-Windows-x64-Setup.exe",
-  "sha256": "c057e085b3940bff02d38563ad87374424f4b74773e7ef22b169bf19065b8d46",
-  "size_bytes": 241067483,
-  "release_notes": "EMP Scanner Desktop 2.6.0\n\n- Referans px/mm ve mm/px; lazer düzlemi boyunca gerçek yerel yüzey türevi, ayrı radyal derinlik duyarlılığı ve isteğe bağlı çizgi merkezi σ bileşeni.\n- Aydınlanmayan oluk tabanları dahil bağımsız hedef örneklemesi; fan, ayna, incident/lastik/kamera engelleri, kadraj, algılama ve yeniden oluşturma ayrı bayraklar. X genişliği yüzdeleri alan yüzdesi değildir.\n- Oluk bazında lazer/kamera/birlikte görünürlük, algılama, geçerli iç sütun ve medyan derinlik; konuma bağlı kayıp grafiği ve kaynaklı CSV/JSON.\n- Genişlik ve kamera/lazer/ayna konum-açı taramaları; açık kullanıcı eşikleri, ilerleme ve hesaplama iptali.\n- Beş kamera + Custom; aynı lens/yerleşim veya lens/mesafe ayarlı aynı hedef referans FOV karşılaştırması. Otomatik en iyi kamera sıralaması yok.\n- Çevrimdışı FPS/payload/pozlama/hareket hesabı; gerçek packed/unpacked boyutları; model zamanlaması eksikse gerçek FPS bilinmiyor. Kaynaklı, koşullara bağlı manuel zamanlama/ROI profili desteklenir.\n- Fare/klavye ile erişilebilir açıklama düğmeleri; bias, P95, doygunluk ve eksik ölçümler görünür.\n- Masaüstü 2.6.0; motor/model 2.3.0 / direct-finite-mirror-2.3. Eski referans görüntü ve hesapları değişmedi. Kullanıcı verileri, sunucusuz WebView2 ve NSIS güncellemesi korunur.\n"
+  "download_url": "https://github.com/uqurkeles/emp-scanner-releases/releases/download/v2.7.0/EMPScanner-2.7.0-Windows-x64-Setup.exe",
+  "sha256": "d1fecabd8bd22fabf22d59ebb77a85db081e9bc197db65d7a1819b6edb35ca6e",
+  "size_bytes": 241081227,
+  "release_notes": "EMP Scanner Desktop 2.7.0\n\n- İlk kurulum için çevrimdışı WebView2 içeren Setup; mevcut kurulum için WebView2 taşımayan Update paketi. Update, bütün uygulama dosyalarını/bağımlılıklarını içerir; dosya farkı/delta değildir.\n- Manifest şeması 1 ve üst seviye tam kurucu alanları korundu. 2.6 ve daha eski istemciler ilk geçişte tam paketi kullanır; 2.7 ve sonraki istemciler kurulum/WebView2 uygunsa küçük paketi seçer. Küçük paket mevcut kurulumda elle de uygulanabilir.\n- Her kurucu, mevcut uygulama dosyalarını değiştirmeden önce staged uygulamada gizli WebView2 ortamı başlatır. Eksik/kullanılamayan bağımlılıkta durur; tam Setup kurtarma yolu sunulur. İndirme hash/boyut/ilerlemesi seçilen pakete aittir.\n- Kowa LM8JC1MS, Hikrobot MVL-HF0628M-6MPE, Basler C23-0816-2M ve Hikrobot HF0420M nominal lens profilleri; kaynaklar/bilinmeyen alanlar. Basler nominal odak 8.6 mm, -S revizyonu yerine kullanılmadı. Reçete/MTF modellemesi eklenmedi.\n- Gerçek lens seçiliyken odak sabit, diyafram belgeli aralıkta düzenlenebilir; serbest odak için Custom. Eski projeler gerçek lens varsayılmadan Custom açılır.\n- Fiziksel sensör ve ROI ayrıldı. Tam yatay genişlik × sabit yükseklik (başlangıç 300 px), merkezleme ve manuel offset; kamera değişiminde yükseklik tercihi korunur. Kırpma principal point’i offset kadar taşır; piksel boyutu, lens ve mekanik konum değişmez.\n- Tam sensör / ROI için ayrı geometrik görüntü çemberi kontrolü, kaymış ROI köşeleri, bağlantı ve fiziksel ölçüler. Vinyet/keskinlik garantisi değildir.\n- FPS aracına simülasyondaki kamera/ROI/format aktarımı; Aktif kurulum özeti ve açıklama düğmeleri. Lens/diyafram/ROI projelerde, yeni kalibrasyon kayıtlarında ve sonuçlarda korunur.\n- Masaüstü 2.7.0, motor 2.4.0, model direct-finite-mirror-2.4 ayrı saklanır. Eski referans 668 eşleşen sütun ve aynı RMSE ile korunur.\n",
+  "packages": {
+    "application_update": {
+      "download_url": "https://github.com/uqurkeles/emp-scanner-releases/releases/download/v2.7.0/EMPScanner-2.7.0-Windows-x64-Update.exe",
+      "sha256": "8edf69100cea87cc47c175d2073f7480549a9463b87eeac46892403d26b78cc8",
+      "size_bytes": 23167494,
+      "requires_webview2": true,
+      "requires_installed_app": true,
+      "kind": "complete_application_payload_without_webview2_not_delta"
+    }
+  }
 }
