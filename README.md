@@ -14,6 +14,12 @@ kurucusunu içerir; Python, pip, terminal veya harici tarayıcı gerekmez.
 4. İndirme ve doğrulama sonrası yüklemeyi siz başlatırsınız. Kaydedilmemiş proje
    için kaydetme, çalışan hesaplama için durdurma onayı istenir.
 
+2.7.0 ve sonraki sürümlerde iki EXE bulunur:
+- **Setup.exe**: ilk kurulum ve eksik/kullanılamayan WebView2 kurtarması. Çevrimdışı Microsoft Runtime kurucusunu içerir.
+- **Update.exe**: mevcut aynı kullanıcı kurulumuna, kullanılabilir WebView2 ile uygulanır. Tüm uygulama dosyaları/bağımlılıkları vardır; WebView2 kurucusu yoktur. Binary delta değildir.
+
+2.6 ve daha eski istemciler 2.7'ye ilk otomatik geçişte bir defa tam Setup indirir. 2.7 ve sonrası uygun kurulumda küçük paketi seçer. Küçük paketin bağımlılık/kurulum kontrolü başarısızsa mevcut uygulama değiştirilmeden tam Setup kurtarma yolu gösterilir.
+
 Eski, yayın adresi boş 2.3.0 teslimini kullananlar etkin bağlantılı son Setup'ı bir
 kez elle kurmalıdır. Proje, kalibrasyon ve ayarlar kurulum klasöründen ayrı saklanır.
 
