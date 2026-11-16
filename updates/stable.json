@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "2.5.0",
+  "version": "2.6.0",
   "platform": "windows",
   "arch": "x64",
-  "download_url": "https://github.com/uqurkeles/emp-scanner-releases/releases/download/v2.5.0/EMPScanner-2.5.0-Windows-x64-Setup.exe",
-  "sha256": "a045ea7a58ac1bf95245484cff031dc764718a6ab5db2973e104207ad18bda1f",
-  "size_bytes": 241110246,
-  "release_notes": "EMP Scanner Desktop 2.5.0\n\n- Proje aç/kaydet, kalibrasyon, simülasyon ve karşılaştırma işlemleri üst araç çubuğuna taşındı.\n- Solda Mekanik, Kamera ve optik, Lastik ve oluklar, Görüntü ve algılama, Kalibrasyon kategorileri eklendi.\n- Kamera/lazer/ayna yerleşimi, ayna boyutları, lastik konumu ve montaj sapmaları Mekanik altında toplandı.\n- Düzen, Ölçüm sonuçları, Kapsama, Karşılaştırma ve Model bilgisi ayrı çalışma alanları oldu; Mekanik seçilince 3B düzen görünür.\n- Parametre kaynak/not alanları açılır bölümlere alındı. Sekmeler arasında girilen değerler korunur; değişen ayarlar için yeniden hesaplama uyarısı gösterilir.\n- Proje adı ve kayıt durumu görünür. Varsayılan sayılardaki 6/6.0 farkının gereksiz kaydetme istemesine neden olması giderildi.\n- Fiziksel motor 2.2.0/model direct-finite-mirror-2.2, kullanıcı verileri ve güvenli kurulum/güncelleme akışı korundu.\n"
+  "download_url": "https://github.com/uqurkeles/emp-scanner-releases/releases/download/v2.6.0/EMPScanner-2.6.0-Windows-x64-Setup.exe",
+  "sha256": "c057e085b3940bff02d38563ad87374424f4b74773e7ef22b169bf19065b8d46",
+  "size_bytes": 241067483,
+  "release_notes": "EMP Scanner Desktop 2.6.0\n\n- Referans px/mm ve mm/px; lazer düzlemi boyunca gerçek yerel yüzey türevi, ayrı radyal derinlik duyarlılığı ve isteğe bağlı çizgi merkezi σ bileşeni.\n- Aydınlanmayan oluk tabanları dahil bağımsız hedef örneklemesi; fan, ayna, incident/lastik/kamera engelleri, kadraj, algılama ve yeniden oluşturma ayrı bayraklar. X genişliği yüzdeleri alan yüzdesi değildir.\n- Oluk bazında lazer/kamera/birlikte görünürlük, algılama, geçerli iç sütun ve medyan derinlik; konuma bağlı kayıp grafiği ve kaynaklı CSV/JSON.\n- Genişlik ve kamera/lazer/ayna konum-açı taramaları; açık kullanıcı eşikleri, ilerleme ve hesaplama iptali.\n- Beş kamera + Custom; aynı lens/yerleşim veya lens/mesafe ayarlı aynı hedef referans FOV karşılaştırması. Otomatik en iyi kamera sıralaması yok.\n- Çevrimdışı FPS/payload/pozlama/hareket hesabı; gerçek packed/unpacked boyutları; model zamanlaması eksikse gerçek FPS bilinmiyor. Kaynaklı, koşullara bağlı manuel zamanlama/ROI profili desteklenir.\n- Fare/klavye ile erişilebilir açıklama düğmeleri; bias, P95, doygunluk ve eksik ölçümler görünür.\n- Masaüstü 2.6.0; motor/model 2.3.0 / direct-finite-mirror-2.3. Eski referans görüntü ve hesapları değişmedi. Kullanıcı verileri, sunucusuz WebView2 ve NSIS güncellemesi korunur.\n"
 }
